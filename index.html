@@ -420,6 +420,7 @@
          
       <div class="modal-inner">
       <h2 class="modal-inner__title">Оставьте свои данные, мы вам перезвоним</h2>
+
         <form class="form" name="main-form" autocomplete="on" novalidate>
           
            <div class="form-field">
@@ -465,20 +466,22 @@
             <textarea class="form-field__textarea" name="user-comment" id="user-comment" rows="10" placeholder="Введите текст" ></textarea>
             </div>
 
-            <div >
-         <label class="check-box-label">
+         <div class="hit-box">
+         <label class="hit-box__label">
           
-            <input class="checkbox visually-hidden" type="checkbox">
+            <input class="hit-box__input  visually-hidden" type="checkbox">
 
-            <svg class="checkbox-icon" width="15" height="15">
+            <svg class="hit-box__icon" width="15" height="15">
                <use href="./imagesforhomwork/sprite.svg#icon-check-mark"></use>
             </svg>
-            <svg class="checkbox-icon1" width="15" height="15">
+
+            <svg class="hit-box__icon1" width="15" height="15">
                <use href="./imagesforhomwork/sprite.svg#icon-Vector-7"></use>
-            </svg>
-            Соглашаюсь с рассылкой и принимаю <a class="checkbox-link" href="#"> Условия договора</a>
+            </svg> 
+            Соглашаюсь с рассылкой и принимаю <a class="hit-box__link" href="#"> Условия договора</a>
          </label>
-      </div>
+         </div>
+
          <button class="send-button" type="submit">Отправить</button>
         </form>   
       </div>
