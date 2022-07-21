@@ -413,14 +413,10 @@ opacity: 1;
    color: var(--accent-text-color-white);
 }
 
-.portfolio-proects__item:hover .thumb-proects__overlay {
+.portfolio-proects__item:hover .thumb-proects__overlay,
+.portfolio-proects__item:focus .thumb-proects__overlay{
    transform: translateY(0);
 }
-
-.portfolio-proects__item:focus .thumb-proects__overlay {
-   transform: translateY(0);
-}
-
 
 /* features */
 .features__title{
