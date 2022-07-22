@@ -1,0 +1,40 @@
+/* constant-clients list */
+.constant-clients {
+   display: flex;
+   list-style: none;
+   justify-content: center;
+   width: 1170px;
+}
+
+/* constant-clients__item */
+.constant-clients__item {
+   margin-right: 30px;
+}
+
+.constant-clients__item:nth-child(6) {
+   margin-right: 0;
+}
+
+/* constant-clients__link and icon */
+.constant-clients__link {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 170px;
+   height: 92px;
+   border: 1px solid var(--color-icon);
+   border-radius: 4px;
+   color: var(--color-icon);
+   transition: color 250ms var(--cubic-bazer), border-color 250ms var(--cubic-bazer);
+}
+
+.constant-clients__icon:nth-child(-n + 6) {
+   fill: currentColor;
+}
+
+.constant-clients__link:hover,
+.constant-clients__link:focus {
+   transition: color 250ms var(--cubic-bazer), border-color 250ms var(--cubic-bazer);
+   color: var(--accent-text-color);
+   border-color: var(--accent-text-color);
+}
