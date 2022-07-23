@@ -11,27 +11,27 @@
    margin-top: 0;
 }
 
-/* social-net footer*/
 .social-net {
    display: flex;
 
-}
 
-.social-net__footer {
-   list-style: none;
-   margin-top: 20px;
-   padding: 0;
-}
+   &__footer {
+      list-style: none;
+      margin-top: 20px;
+      padding: 0;
+   }
 
-.social-net__item:not(:last-child) {
-   margin-right: 10px;
-}
+   &__item:not(:last-child) {
+      margin-right: 10px;
+   }
 
-.social-net__link--footer {
-   color: var(--accent-text-color-white);
-   background-color: var(--color-footer-icon-area);
-}
+   &__link--footer {
+      color: var(--accent-text-color-white);
+      background-color: var(--color-footer-icon-area);
+   }
 
-.social-net__icon--footer {
-   fill: currentColor;
+   &__icon--footer {
+      fill: currentColor;
+   }
+
 }

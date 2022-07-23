@@ -3,13 +3,15 @@
    padding-top: 60px;
    padding-bottom: 60px;
    background-color: var(--back-round-color-footer-hero);
+
+   &__navigation {
+         display: flex;
+         align-items: baseline;
+      }
 }
 
-/* navigation */
-.footer__navigation {
-   display: flex;
-   align-items: baseline;
-}
+
+
 /* footer logo */
 .logo__footer-accent {
    margin-top: 0;

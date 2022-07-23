@@ -17,12 +17,14 @@
    line-height: 1.87;
    letter-spacing: 0.06em;
    cursor: pointer;
+
+
+   &__icon {
+         margin-left: 10px;
+         top: 50%;
+         left: 70%;
+         transform: translateY(-50%);
+         position: absolute;
+      }
 }
 
-.button-footer__icon {
-   margin-left: 10px;
-   top: 50%;
-   left: 70%;
-   transform: translateY(-50%);
-   position: absolute;
-}

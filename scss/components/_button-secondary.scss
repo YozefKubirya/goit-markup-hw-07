@@ -13,14 +13,16 @@
    text-align: center;
    letter-spacing: 0.03em;
    transition: color 250ms var(--cubic-bazer),
-      background-color 250ms var(--cubic-bazer);
+   background-color 250ms var(--cubic-bazer);
+   cursor: pointer;
+
+      &:hover,
+      &:focus {
+            transition: color 250ms var(--cubic-bazer),
+               background-color 250ms var(--cubic-bazer);
+            background-color: var(--accent-text-color);
+            color: var(--accent-text-color-white);
+         }
 
 }
 
-.button-secondary:hover,
-.button-secondary:focus {
-   transition: color 250ms var(--cubic-bazer),
-      background-color 250ms var(--cubic-bazer);
-   background-color: var(--accent-text-color);
-   color: var(--accent-text-color-white);
-}
